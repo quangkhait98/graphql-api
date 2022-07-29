@@ -1,0 +1,22 @@
+{
+  "name": "graphql-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.17.1",
+    "express-graphql": "^0.9.0",
+    "generate-password": "^1.7.0",
+    "graphql": "^14.6.0",
+    "lodash": "^4.17.21",
+    "mongoose": "^5.9.7",
+    "password-generator": "^2.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
